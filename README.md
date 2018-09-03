@@ -1,4 +1,4 @@
-# PhpMyAdminInstaller
+# PhpMyAdminInstaller [![Version](https://img.shields.io/badge/version-v1.0.0-green.svg)](https://github.com/zevilz/PhpMyAdminInstaller/releases/tag/1.0.0)
 
 Simple script for install and configure PhpMyAdmin. The script download it specified version from [www.phpmyadmin.net/downloads/](https://www.phpmyadmin.net/downloads/) (multilanguage version).
 
