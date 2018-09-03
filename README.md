@@ -24,6 +24,8 @@ chmod +x pma-installer.sh
 ./pma-installer.sh
 ```
 
+4. Create database for PhpMyAdmin in web interface (`<pma_url>/chk_rel.php`) if it not exists. You will see related warning with link in the bottom of page.
+
 Notices:
 - Installed versions from repositories must be removed before using script (recommended);
 - There is no need to delete PhpMyAdmin installed with this script. Old versions will be saved in same directory;
