@@ -55,9 +55,9 @@ fi
 cd /usr/share/
 echo -n "Downloading new version... "
 if [ $PMA_VERSION = "latest" ]; then
-	$SUDO wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz >/dev/null 2>/dev/null
+	$SUDO wget -c https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz >/dev/null 2>/dev/null
 else
-	$SUDO wget https://files.phpmyadmin.net/phpMyAdmin/$PMA_VERSION/phpMyAdmin-$PMA_VERSION-all-languages.tar.gz >/dev/null 2>/dev/null
+	$SUDO wget -c https://files.phpmyadmin.net/phpMyAdmin/$PMA_VERSION/phpMyAdmin-$PMA_VERSION-all-languages.tar.gz >/dev/null 2>/dev/null
 fi
 if [ -f "/usr/share/phpMyAdmin-$PMA_VERSION-all-languages.tar.gz" ]; then
 	$SETCOLOR_SUCCESS
