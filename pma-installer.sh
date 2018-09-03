@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Simple script for install and configure PhpMyAdmin
 # URL: https://github.com/zevilz/PhpMyAdminInstaller
 # Author: Alexandr "zEvilz" Emshanov
