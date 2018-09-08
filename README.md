@@ -25,7 +25,7 @@ Notices:
 - -t (--temp-dir) - specify TEMP_DIR constant value ($cfg['TempDir']) that define directory for phpMyAdmin template caches (usage: `-t <value> | --temp-dir=<value>`; `'./tmp/'` by default)
 - -u (--user) - specify owner (user) of phpMyAdmin directory (usage: `-u <user> | --user=<user>`; it is inherited from parent directory owner by default);
 - -g (--group) - specify owner (group) of phpMyAdmin directory (usage: `-g <group> | --group=<group>`; it is inherited from parent directory owner by default);
-- -f (--force) - force reinstall phpMyAdmin if current version allready installed;
+- -f (--force) - force reinstall phpMyAdmin if current version already installed;
 - -q (--quiet) - execute the script without any users actions (enabled in cron usage by default);
 - -d (--debug) - show disabled output of commands.
 
