@@ -1,4 +1,4 @@
-# phpMyAdminInstaller [![Version](https://img.shields.io/badge/version-v2.0.0-brightgreen.svg)](https://github.com/zevilz/PhpMyAdminInstaller/releases/tag/2.0.0)
+# phpMyAdminInstaller [![Version](https://img.shields.io/badge/version-v2.0.0-brightgreen.svg)](https://github.com/zevilz/phpMyAdminInstaller/releases/tag/2.0.0)
 
 Simple bash script for install and configure phpMyAdmin. The script download it specified version from [www.phpmyadmin.net/downloads/](https://www.phpmyadmin.net/downloads/).
 
@@ -131,6 +131,6 @@ Example:
 
 ## Changelog
 
-- 2018.09.08 - 2.0.0 - [a lot of changes and code refactoring](https://github.com/zevilz/PhpMyAdminInstaller/releases/tag/2.0.0)
-- 2018.09.04 - 1.1.0 - [bug fixes and refactoring](https://github.com/zevilz/PhpMyAdminInstaller/releases/tag/1.1.0)
+- 2018.09.08 - 2.0.0 - [a lot of changes and code refactoring](https://github.com/zevilz/phpMyAdminInstaller/releases/tag/2.0.0)
+- 2018.09.04 - 1.1.0 - [bug fixes and refactoring](https://github.com/zevilz/phpMyAdminInstaller/releases/tag/1.1.0)
 - 2018.09.03 - 1.0.0 - released
