@@ -16,7 +16,7 @@ Notices:
 - `setup` directory deleting after installation for security issues;
 - you may combine options.
 
-## Options
+### Options
 
 - -h (--help) - shows help message;
 - -p (--path) - specify full path to phpMyAdmin directory (usage: `p <dir> | --path=<dir>`; `/usr/share/phpmyadmin` by default);
