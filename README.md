@@ -12,7 +12,7 @@ Notices:
 - installed versions from repositories must be removed before using script if you install phpMyAdmin in the same directory (recommended);
 - there is no need to delete PhpMyAdmin installed with this script, old versions will be backupped in the same directory;
 - the script must be run with sudo if current user is not root;
-- Blowfish secret for authentification generating automatically durign installation and add to `$cfg['blowfish_secret']` in `/pma/working/directory/config.inc.php`;
+- Blowfish secret for authentification generate automatically durign installation and add to `$cfg['blowfish_secret']` in `/pma/working/directory/config.inc.php`;
 - `setup` directory deleting after installation for security issues;
 - you may combine options.
 
