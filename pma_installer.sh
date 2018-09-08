@@ -108,7 +108,7 @@ usage()
 	echo "    -g <group>,             Specify group of phpMyAdmin directory."
 	echo "    --group=<group>         By default group is inherited from parent directory owner."
 	echo
-	echo "    -f, --force             Force reinstall phpMyAdmin if current version allready"
+	echo "    -f, --force             Force reinstall phpMyAdmin if current version already"
 	echo "                            installed."
 	echo
 	echo "    -q, --quiet             Execute the script without any users actions."
