@@ -72,7 +72,7 @@ Example:
 bash pma_installer.sh -t "'/home/user/tmp/pma'"
 ```
 
-But users haven't access to it directory if phpMyAdmin will be installed for all users in system directories that owner is root. The script automatically create this directory in working phpMyAdmin directory with write access for all users (`777`). This is not recommended because it might impose risk of other users on system reading and writing data in this directory. You may create separate directories for each user.
+But users haven't access to it directory if phpMyAdmin will be installed for all users in system directories that owner is root. The script automatically create this directory in working phpMyAdmin directory with write access for all users (`777`) if directory owner is `root` and `TEMP_DIR` constant value is `'./tmp/'`. This is not recommended because it might impose risk of other users on system reading and writing data in this directory. You may create separate directories for each user.
 
 Example:
 
