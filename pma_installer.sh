@@ -265,7 +265,7 @@ if ! [ "$(pwd)" = "$PMA_PARENT_PATH" ]; then
 	echo
 	exit 1
 fi
-if ! [[ "$PMA_VERSION" =~ ^([0-9]+\.[0-9]+\.[0-9]+|latest)$ ]]; then
+if ! [[ "$PMA_VERSION" =~ ^([0-9]+\.[0-9]+\.[0-9]+|[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+|latest)$ ]]; then
 	echo_fail "Wrong format of version given (must be like this \"1.2.3\" or \"latest\") "
 	echo_fail "or url with latest version not work (${PMA_LATEST_VERSION_INFO_URL}) "
 	echo_fail "if you sets latest version!"
