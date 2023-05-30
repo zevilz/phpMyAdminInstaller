@@ -167,7 +167,7 @@ fi
 # Check if PHP is installed
 if ! command -v php &> /dev/null
 then
-    echo_fail "php could not be found"
+    echo_fail "php could not be found!"
 	echo
     exit 1
 fi

@@ -5,7 +5,7 @@ Simple bash script for install and configure phpMyAdmin. The script download it 
 ## Requirements
 
 - wget
-- [php 7.1.3 or newer](https://docs.phpmyadmin.net/en/latest/require.html)
+- [php](https://docs.phpmyadmin.net/en/latest/require.html)
 
 ## Usage
 
