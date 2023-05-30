@@ -164,6 +164,14 @@ if [[ $UID != 0 ]]; then
 	exit 1
 fi
 
+# Check if PHP is installed
+if ! command -v php &> /dev/null
+then
+    echo_fail "php could not be found!"
+	echo
+    exit 1
+fi
+
 # Get script options
 while 'true' ; do
 	if [ "${1#--path=}" != "$1" ] ; then
